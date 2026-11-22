@@ -5,11 +5,11 @@ def get_grade(marks):
     """Return a letter grade for marks out of 100."""
     if marks >= 90:
         return "A"
-    elif marks >= 80:
+    elif marks >= 78:
         return "B"
-    elif marks >= 70:
+    elif marks >= 65:
         return "C"
-    elif marks >= 50:
+    elif marks >= 45:
         return "D"
     return "F"
 
