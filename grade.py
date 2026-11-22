@@ -3,13 +3,13 @@ import sys
 
 def get_grade(marks):
     """Return a letter grade for marks out of 100."""
-    if marks >= 90:
+    if marks >= 85:
         return "A"
-    elif marks >= 75:
+    elif marks >= 70:
         return "B"
-    elif marks >= 60:
+    elif marks >= 55:
         return "C"
-    elif marks >= 40:
+    elif marks >= 35:
         return "D"
     return "F"
 

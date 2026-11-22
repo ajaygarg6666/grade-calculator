@@ -6,4 +6,4 @@ A tiny command line tool that takes a student's marks and prints a grade.
 python grade.py 78
 
 ## Grading scale
-Grades are given on a simple 10 point scale.
+Lenient scale: A (85+), B (70+), C (55+), D (35+), F below 35.
